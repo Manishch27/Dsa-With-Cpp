@@ -12,7 +12,7 @@ int main(){
 
 // Sum of Two Numbers using user input and without third variable 
 
-    int Number1 , Number2, Add;
+    int Number1 , Number2;
 
     cout<<"Enter Number1 : "<<endl;
     cin>>Number1;
