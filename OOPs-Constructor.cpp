@@ -61,6 +61,8 @@ int main(){
     car1->setPrice(price);
 
     cout<<"The price of the car is = "<<car1->getPrice();
-
+    
+    delete car1;
+    
     return 0;
 }
