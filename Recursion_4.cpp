@@ -19,7 +19,7 @@ int main(){
     cout<<"Enter the position "<<endl;
     cin>>num;
 
-    cout<<fib(&num);
+    cout<<fib(num);
 
     return 0;
 }
