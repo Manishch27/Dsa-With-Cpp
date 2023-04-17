@@ -10,7 +10,7 @@ void rev(int num){
         int rem = num%10;
         reverse = reverse*10+rem;
         num/=10;
-        cout<<rem;
+        cout<<reverse;
     }
 }
 
