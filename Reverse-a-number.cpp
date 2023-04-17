@@ -8,7 +8,7 @@ void rev(int num){
     cin>>num;
     while(num!=0){
         int rem = num%10;
-        reverse *=10+rem;
+        reverse = reverse*10+rem;
         num/=10;
         cout<<rem;
     }
